@@ -45,3 +45,4 @@ function buscarEstudiante() {
     resultado.textContent = "No se encontró ningún estudiante con ese número.";
   }
 }
+

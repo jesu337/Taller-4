@@ -25,3 +25,4 @@ function adivinar() {
     resultado.textContent = "Más bajo... Intenta con un número menor.";
   }
 }
+

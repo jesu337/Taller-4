@@ -21,7 +21,7 @@ document.body.appendChild(lista);
 
 const item = document.createElement('li');
 const enlace = document.createElement('a');
-enlace.href = '../taller_4/html/ejercicio1.html';
+enlace.href = 'html/ejercicio1.html';
 enlace.textContent = 'Ejercicio #1';
 enlace.target = '_blank';
 item.appendChild(enlace);

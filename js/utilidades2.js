@@ -31,4 +31,28 @@ document.body.appendChild(
     crearTexto('H1–H6, varios &lt;p&gt;, &lt;<strong>strong</strong>&gt;, &lt;<dfn>em</dfn>&gt;. Tema: HTML como lenguaje de marcado (no programación).')
 );
 
+const lista2 = document.createElement('ul');
+document.body.appendChild(lista2);
+
+const item2 = document.createElement('li');
+const enlace2 = document.createElement('a');
+enlace2.href = 'html/ejercicio3.html';
+enlace2.textContent = 'Ejercicio #3';
+enlace2.target = '_blank';
+document.body.appendChild(enlace2);
+item2.appendChild(enlace2);
+lista2.appendChild(item2);
+
+const lista3 = document.createElement('ul');
+document.body.appendChild(lista3);
+
+const item3 = document.createElement('li');
+const enlace3 = document.createElement('a');
+enlace3.href = 'html/ejercicio4.html';
+enlace3.textContent = 'Ejercicio #4';
+enlace3.target = '_blank';
+document.body.appendChild(enlace3);
+item3.appendChild(enlace3);
+lista3.appendChild(item3);
+
 
